@@ -1,0 +1,12 @@
+
+nav{
+  z-index: 1001;
+}
+
+.gradientBg{
+  background: linear-gradient(99deg, #EE9AE5 , #5961F9 100%);
+}
+
+.btnPrimary{
+  @apply py-3 px-8 bg-secondary font-semibold text-white rounded hover:bg-primary transition-all duration-300
+}
